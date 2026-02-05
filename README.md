@@ -3,7 +3,14 @@ Proyecto de Laravel realizado desde Docker, utilizando Laravel Sail
 
 
 # Índice
-
+1. [Requisitos Previos](#1requisitos-previos)
+2. [Creación del Scaffolding](#2creación-del-scaffolding)
+3. [Configuración de Laravel Sail](#3configuración-de-laravel-sail)
+4. [Verificación de Contenedores](#4verificación-de-contenedores)
+5. [Migraciones y Pruebas](#5migraciones-y-pruebas)
+   - 5.1 [Prueba en el Navegador](#51-prueba-en-el-navegador)
+6. [Comandos de Mantenimiento](#6-comandos-de-mantenimiento)
+7. [Podman](#7-podman)
 
 
 ---
@@ -98,7 +105,7 @@ Para gestionar el entorno, veremos los siguientes comandos :
 
 - ./vendor/bin/sail up -d : Sirve para iniciar los contenedores.
 
-    La prueba de Salida la vemos en #3.configuración de Laravel Sail
+    La prueba de Salida la vemos en 3. [Configuración de Laravel Sail](#3configuración-de-laravel-sail)
 
 - ./vendor/bin/sail composer install : Se utiliza para ejecutar comandos de componser.
 
