@@ -26,7 +26,7 @@ Luego nos pedirá usuario y contraseña, y tendremos Ubuntu instalado :
 ![Ubuntu Installation](doc/1.Ubuntu.png)
 
 
-## 2. Creación del Scaffolding
+## 2.Creación del Scaffolding
 
 Para crear la estructura del proyecto deberemos entrar a la terminal de WSL y escribir el siguiente comando :
 
@@ -38,4 +38,15 @@ Una vez ejecutado este comando nos aparecerá lo siguiente por consola:
 
 ![alt text](doc/2.Scaffolding.png)
 
-    
+Cuando ha finalizado, nos creará una carpeta con el proyecto ya iniciado, esperando a ser desplegado :
+
+![alt text](doc/3.proyectoPiloto.png)
+
+## 3.Configuración de Laravel Sail
+
+Una vez creado nuestro proyecto, ejecutaremos los siguientes comandos para desplegar nuestro proyecto :
+
+```bash
+   cd proyectoPiloto
+   ./vendor/bin/sail up -d
+```
