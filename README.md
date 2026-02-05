@@ -101,6 +101,14 @@ Para gestionar el entorno, veremos los siguientes comandos :
     La prueba de Salida la vemos en #3.configuración de Laravel Sail
 
 - ./vendor/bin/sail composer install : Se utiliza para ejecutar comandos de componser.
+
     Prueba de Salida:
     ![alt text](doc/9.composer_install.png)
 
+- ./vendor/bin/sail test : Ejecuta las pruebas unitarias y de integración.
+
+    Prueba de Salida:
+    ![alt text](doc/10.composer_test.png)
+
+## 7. PodMan
+Aunque en esta práctica se ha utilizado Docker Desktop, el entorno es compatible con Podman.
